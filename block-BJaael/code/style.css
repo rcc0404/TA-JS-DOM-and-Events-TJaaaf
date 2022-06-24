@@ -33,4 +33,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-.
+
+.boxes {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid black;
+}

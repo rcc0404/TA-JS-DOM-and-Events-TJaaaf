@@ -7,7 +7,37 @@
     <title>Form Validation 👇</title>
   </head>
   <body>
-   .
+    <div class="container">
+      <header>
+        <h1>Create Account</h1>
+      </header>
+      <form>
+        <div class="form-control">
+        <label for="text">Username</label>
+        <input type="text"
+        name="username"
+        placeholder="arya"
+        />
+        <small></small>
+        </div>
+        <div class="form-control success">
+          <label for="text">Name</label>
+          <input type="text" name="name" placeholder="arya stark" />
+          <small>Name can't be empty</small>
+        </div>
+        <div class="form-control error">
+          <label for="text">Email</label>
+          <input id="email" type="email" name="email" placeholder="arya@stark.com" />
+          <small>Name can't be empty</small>
+        </div>
+        <div class="form-control error">
+          <label for="age">Enter your age</label>
+          <input type="age" name="number" placeholder="Enter your age" />
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>

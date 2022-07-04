@@ -14,7 +14,7 @@
       <form>
         <div class="form-control">
         <label for="text">Username</label>
-        <input type="text"
+        <input id="username" type="text"
         name="username"
         placeholder="arya"
         />
@@ -23,16 +23,27 @@
         <div class="form-control success">
           <label for="text">Name</label>
           <input type="text" name="name" placeholder="arya stark" />
-          <small>Name can't be empty</small>
+          <small></small>
         </div>
         <div class="form-control error">
           <label for="text">Email</label>
           <input id="email" type="email" name="email" placeholder="arya@stark.com" />
-          <small>Name can't be empty</small>
+          <small></small>
         </div>
         <div class="form-control error">
-          <label for="age">Enter your age</label>
-          <input type="age" name="number" placeholder="Enter your age" />
+          <label for="phone">Phone Number</label>
+          <input id="phone" type="tel" name="phone" placeholder="Enter your password" />
+          <small></small>
+        </div>
+        <div class="form-control">
+          <label for="pass">Password</label>
+          <input id="pass" type="password" name="password" placeholder="Enter your password" />
+          <small></small>
+        </div>
+        <div class="form-control success">
+          <label for="pass-check">Confirm Password</label>
+          <input id="pass-check" type="password" name="password-check" placeholder="Confirm password" />
+          <small></small>
         </div>
 
         <button type="submit">Submit</button>

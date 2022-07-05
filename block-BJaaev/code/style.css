@@ -48,3 +48,17 @@ table {
 }
 
 /* Main CSS */
+
+
+button:hover {
+    background:white;
+    color: black;
+
+    border: 1px solid black;
+}
+
+.selected {
+    background:  white !important;
+    border: 1px solid !important;
+    color: black !important;
+}
